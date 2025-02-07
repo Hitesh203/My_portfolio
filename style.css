@@ -3,15 +3,25 @@ body{
 }
 h1{
     text-align: center;
-    color: rgb(255, 0, 191);
+    color: white;
 }
 h2{
     text-align: center;
-    color: rgb(255, 0, 191);
+    color: white;
 
 }
 .glowing-text {
     font-size: 2rem;
-    color: rgb(255, 0, 191);
     text-shadow: 0 0 15px rgb(255, 0, 191), 0 0 20px rgb(255, 0, 191);
+}
+
+
+.glow-text {
+    font-size: 3rem;
+    color: white;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.glow-text:hover {
+    text-shadow: 0 0 10px rgb(255, 0, 191), 0 0 20px rgb(255, 0, 191), 0 0 40px rgb(255, 0, 191);
 }
